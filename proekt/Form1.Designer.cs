@@ -35,9 +35,9 @@
             // 
             // btnRectangle
             // 
-            this.btnRectangle.Location = new System.Drawing.Point(12, 409);
+            this.btnRectangle.Location = new System.Drawing.Point(12, 387);
             this.btnRectangle.Name = "btnRectangle";
-            this.btnRectangle.Size = new System.Drawing.Size(94, 29);
+            this.btnRectangle.Size = new System.Drawing.Size(137, 51);
             this.btnRectangle.TabIndex = 0;
             this.btnRectangle.Text = "Rectangle";
             this.btnRectangle.UseVisualStyleBackColor = true;
@@ -45,9 +45,9 @@
             // 
             // btnCircle
             // 
-            this.btnCircle.Location = new System.Drawing.Point(333, 409);
+            this.btnCircle.Location = new System.Drawing.Point(333, 387);
             this.btnCircle.Name = "btnCircle";
-            this.btnCircle.Size = new System.Drawing.Size(94, 29);
+            this.btnCircle.Size = new System.Drawing.Size(134, 51);
             this.btnCircle.TabIndex = 1;
             this.btnCircle.Text = "Circle";
             this.btnCircle.UseVisualStyleBackColor = true;
@@ -55,9 +55,9 @@
             // 
             // btnTriangle
             // 
-            this.btnTriangle.Location = new System.Drawing.Point(694, 409);
+            this.btnTriangle.Location = new System.Drawing.Point(671, 387);
             this.btnTriangle.Name = "btnTriangle";
-            this.btnTriangle.Size = new System.Drawing.Size(94, 29);
+            this.btnTriangle.Size = new System.Drawing.Size(117, 51);
             this.btnTriangle.TabIndex = 2;
             this.btnTriangle.Text = "Triangle";
             this.btnTriangle.UseVisualStyleBackColor = true;

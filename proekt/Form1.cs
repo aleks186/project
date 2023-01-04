@@ -50,7 +50,6 @@ namespace proekt
         {
             while (true)
             {
-               
                 Random random = new Random();
                 Pen pen = new Pen(Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255)));
                 Graphics Triangle = this.CreateGraphics();
