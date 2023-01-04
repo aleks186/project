@@ -41,6 +41,7 @@
             this.btnRectangle.TabIndex = 0;
             this.btnRectangle.Text = "Rectangle";
             this.btnRectangle.UseVisualStyleBackColor = true;
+            this.btnRectangle.Click += new System.EventHandler(this.btnRectangle_Click);
             // 
             // btnCircle
             // 
