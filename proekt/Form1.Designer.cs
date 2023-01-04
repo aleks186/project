@@ -35,6 +35,8 @@
             // 
             // btnRectangle
             // 
+            this.btnRectangle.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRectangle.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnRectangle.Location = new System.Drawing.Point(12, 387);
             this.btnRectangle.Name = "btnRectangle";
             this.btnRectangle.Size = new System.Drawing.Size(137, 51);
@@ -45,6 +47,8 @@
             // 
             // btnCircle
             // 
+            this.btnCircle.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCircle.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnCircle.Location = new System.Drawing.Point(333, 387);
             this.btnCircle.Name = "btnCircle";
             this.btnCircle.Size = new System.Drawing.Size(134, 51);
@@ -55,6 +59,8 @@
             // 
             // btnTriangle
             // 
+            this.btnTriangle.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTriangle.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnTriangle.Location = new System.Drawing.Point(671, 387);
             this.btnTriangle.Name = "btnTriangle";
             this.btnTriangle.Size = new System.Drawing.Size(117, 51);
