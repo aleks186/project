@@ -23,5 +23,22 @@ namespace proekt
                 Thread.Sleep(3000);
             }
         }
+
+        private void btnCircle_Click(object sender, EventArgs e)
+        {
+            Thread threadCircle = new Thread(CircleThread);
+            threadCircle.Start();
+        }
+        public void CircleThread()
+        {
+            while (true)
+            {
+                Random random = new Random();
+                Pen pen = new Pen(Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255)));
+                Graphics Circle = this.CreateGraphics();
+                Circle.DrawEllipse(pen, random.Next(0, this.Width - 200), random.Next(0, this.Height - 250), random.Next(50, 230), random.Next(50, 240));
+                Thread.Sleep(4000);
+            }
+        }
     }
 }

@@ -51,6 +51,7 @@
             this.btnCircle.TabIndex = 1;
             this.btnCircle.Text = "Circle";
             this.btnCircle.UseVisualStyleBackColor = true;
+            this.btnCircle.Click += new System.EventHandler(this.btnCircle_Click);
             // 
             // btnTriangle
             // 
